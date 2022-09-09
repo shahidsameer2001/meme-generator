@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0px;
+}
+
+img{
+    height: 50px;
+}
+.Emoji{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+nav{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    background: purple;
+}
+.topic{
+    position: fixed;
+    float: right;
+    right: 0px;
+}
+main{
+    padding:36px;
+}
+
+.form{
+    display: grid;
+    grid-template: 40px 40px /1fr 1fr;
+    gap:20px;
+}
+.form-button{
+    grid-column: 1/-1;
+    background: linear-gradient(90.41deg,#711F8D 1.14%,#A818DA 100%);
+}
+.images{
+    height: 200px;
+    padding-left: 500px;
+}
+
+
+
+
+/* main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 450px;
+    box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+        -webkit-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+        -moz-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+
+}
+.card--image {
+    width: 100%;
+padding: 10px;
+    padding-bottom: 0;
+    border-radius: 50%;
+
+}
+
+.card--name {
+    margin-block: 13px;
+    color: #333333;
+}
+
+.card--info {
+    padding: 10px;
+}
+
+.card--favorite {
+    width: 25px;
+    cursor: pointer;
+}
+
+.card--contact {
+    font-size: 0.75rem;
+    color: gray;
+    margin-block: 7px;
+}
+.card-star{
+    height: 40px;
+} */
